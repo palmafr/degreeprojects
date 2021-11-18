@@ -1,0 +1,3507 @@
+{
+  "issues": [
+	{
+  	"key": "AX0piQoTA8JITtEA8V_C",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1706,
+  	"hash": "9212f5b21ef7b870c31676912aea3c0e",
+  	"textRange": {
+    	"startLine": 1706,
+    	"endLine": 1706,
+    	"startOffset": 61,
+    	"endOffset": 72
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQcQA8JITtEA8Vbd",
+  	"rule": "java:S3329",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 559,
+  	"hash": "cc75d01e15bcb903fe01ae01a9a0b42f",
+  	"textRange": {
+    	"startLine": 559,
+    	"endLine": 559,
+    	"startOffset": 19,
+    	"endOffset": 63
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a dynamically-generated, random IV.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a6",
+    	"owasp-m5"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQbcA8JITtEA8VZq",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 52,
+  	"hash": "71ddd6f938039ca7d62656ad68fa3160",
+  	"textRange": {
+    	"startLine": 52,
+    	"endLine": 52,
+    	"startOffset": 28,
+    	"endOffset": 46
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQbcA8JITtEA8VZr",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 54,
+  	"hash": "6725542906f839e8d8ab3df491a56956",
+  	"textRange": {
+    	"startLine": 54,
+    	"endLine": 54,
+    	"startOffset": 28,
+    	"endOffset": 46
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQbqA8JITtEA8VZ1",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 49,
+  	"hash": "8b6779c518d6c35fa2109102482ac22c",
+  	"textRange": {
+    	"startLine": 49,
+    	"endLine": 49,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQbmA8JITtEA8VZy",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 27,
+  	"hash": "8b6779c518d6c35fa2109102482ac22c",
+  	"textRange": {
+    	"startLine": 27,
+    	"endLine": 27,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQbXA8JITtEA8VZj",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 36,
+  	"hash": "8b6779c518d6c35fa2109102482ac22c",
+  	"textRange": {
+    	"startLine": 36,
+    	"endLine": 36,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQUaA8JITtEA8VCu",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 922,
+  	"hash": "ce71e80858af031381c8927f72bce9c8",
+  	"textRange": {
+    	"startLine": 922,
+    	"endLine": 922,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQ8qA8JITtEA8XTC",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 103,
+  	"hash": "123dad5ef523758bfd52d834946234e4",
+  	"textRange": {
+    	"startLine": 103,
+    	"endLine": 103,
+    	"startOffset": 33,
+    	"endOffset": 51
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQyVA8JITtEA8We8",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 500,
+  	"hash": "ffc92a58cda81170d977fac48e8a0a5f",
+  	"textRange": {
+    	"startLine": 500,
+    	"endLine": 500,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQyVA8JITtEA8We9",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 506,
+  	"hash": "171adfba2976eaab22ca5d34811e5ffd",
+  	"textRange": {
+    	"startLine": 506,
+    	"endLine": 506,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRKBA8JITtEA8X1T",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 34,
+  	"hash": "7b287eace5dd0a2cacaf94355eb7f5d2",
+  	"textRange": {
+    	"startLine": 34,
+    	"endLine": 34,
+    	"startOffset": 8,
+    	"endOffset": 48
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Timing Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRKBA8JITtEA8X1U",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 43,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 43,
+    	"endLine": 43,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRKBA8JITtEA8X1V",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 48,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 48,
+    	"endLine": 48,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNMYA8JITtEA8I3g",
+  	"rule": "java:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/AbstractJkStatusTask.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 185,
+  	"hash": "a759fb82164039aba787c5ebec210be9",
+  	"textRange": {
+    	"startLine": 185,
+    	"endLine": 185,
+    	"startOffset": 27,
+    	"endOffset": 35
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNMsA8JITtEA8I5I",
+  	"rule": "java:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/JkStatusAccessor.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 130,
+  	"hash": "54faaff570c2183a8f9884c4d69f135f",
+  	"textRange": {
+    	"startLine": 130,
+    	"endLine": 130,
+    	"startOffset": 50,
+    	"endOffset": 58
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piN2tA8JITtEA8L8A",
+  	"rule": "java:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 181,
+  	"hash": "a759fb82164039aba787c5ebec210be9",
+  	"textRange": {
+    	"startLine": 181,
+    	"endLine": 181,
+    	"startOffset": 37,
+    	"endOffset": 45
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNoLA8JITtEA8Kmb",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/container/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 49,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 49,
+    	"endLine": 49,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNoLA8JITtEA8Kmc",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/container/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 55,
+  	"hash": "53497318a0992da5fa0dd9db07f821c8",
+  	"textRange": {
+    	"startLine": 55,
+    	"endLine": 55,
+    	"startOffset": 8,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Set Character Encoding\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNoLA8JITtEA8Kmd",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/container/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 64,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 64,
+    	"endLine": 64,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piN6JA8JITtEA8MLe",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 104,
+  	"hash": "5b58411847835c40d3885f178bfa8003",
+  	"textRange": {
+    	"startLine": 104,
+    	"endLine": 104,
+    	"startOffset": 56,
+    	"endOffset": 67
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piN7fA8JITtEA8MXK",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/servletapi/src/share/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 241,
+  	"hash": "77d218dc6b236a3bc700dc861268e0f6",
+  	"textRange": {
+    	"startLine": 241,
+    	"endLine": 241,
+    	"startOffset": 8,
+    	"endOffset": 13
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piR44A8JITtEA8b-Y",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/connectors/util/java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 90,
+  	"hash": "7a2dcb7fe0f422238e23cae7a86c60ff",
+  	"textRange": {
+    	"startLine": 90,
+    	"endLine": 90,
+    	"startOffset": 45,
+    	"endOffset": 50
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRfjA8JITtEA8Zvg",
+  	"rule": "java:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 200,
+  	"hash": "a759fb82164039aba787c5ebec210be9",
+  	"textRange": {
+    	"startLine": 200,
+    	"endLine": 200,
+    	"startOffset": 37,
+    	"endOffset": 45
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRf7A8JITtEA8Zxi",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/servlets/DefaultServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1330,
+  	"hash": "9212f5b21ef7b870c31676912aea3c0e",
+  	"textRange": {
+    	"startLine": 1330,
+    	"endLine": 1330,
+    	"startOffset": 61,
+    	"endOffset": 72
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRTrA8JITtEA8YoM",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1393,
+  	"hash": "5b58411847835c40d3885f178bfa8003",
+  	"textRange": {
+    	"startLine": 1393,
+    	"endLine": 1393,
+    	"startOffset": 52,
+    	"endOffset": 63
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRRWA8JITtEA8YV9",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 32,
+  	"hash": "ee52a00d5edf3e99547912e15f49e34c",
+  	"textRange": {
+    	"startLine": 32,
+    	"endLine": 32,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Servlet Mapped Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRRWA8JITtEA8YV-",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 40,
+  	"hash": "c71aa967075424853e659ac7bfc55418",
+  	"textRange": {
+    	"startLine": 40,
+    	"endLine": 40,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Path Mapped Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRRWA8JITtEA8YV_",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 48,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 48,
+    	"endLine": 48,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRRWA8JITtEA8YWA",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 54,
+  	"hash": "53497318a0992da5fa0dd9db07f821c8",
+  	"textRange": {
+    	"startLine": 54,
+    	"endLine": 54,
+    	"startOffset": 8,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Set Character Encoding\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piRRWA8JITtEA8YWB",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 63,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 63,
+    	"endLine": 63,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piROKA8JITtEA8YKr",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr154/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 47,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 47,
+    	"endLine": 47,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piROKA8JITtEA8YKs",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr154/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 53,
+  	"hash": "53497318a0992da5fa0dd9db07f821c8",
+  	"textRange": {
+    	"startLine": 53,
+    	"endLine": 53,
+    	"startOffset": 8,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Set Character Encoding\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piROKA8JITtEA8YKt",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr154/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 62,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 62,
+    	"endLine": 62,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piROWA8JITtEA8YN-",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr154/src/share/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 245,
+  	"hash": "77d218dc6b236a3bc700dc861268e0f6",
+  	"textRange": {
+    	"startLine": 245,
+    	"endLine": 245,
+    	"startOffset": 8,
+    	"endOffset": 13
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSkdA8JITtEA8gOV",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 241,
+  	"hash": "77d218dc6b236a3bc700dc861268e0f6",
+  	"textRange": {
+    	"startLine": 241,
+    	"endLine": 241,
+    	"startOffset": 8,
+    	"endOffset": 13
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSTTA8JITtEA8eXr",
+  	"rule": "java:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 202,
+  	"hash": "a759fb82164039aba787c5ebec210be9",
+  	"textRange": {
+    	"startLine": 202,
+    	"endLine": 202,
+    	"startOffset": 37,
+    	"endOffset": 45
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSMnA8JITtEA8djH",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/catalina/mbeans/JmxRemoteLifecycleListener.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 419,
+  	"hash": "ce71e80858af031381c8927f72bce9c8",
+  	"textRange": {
+    	"startLine": 419,
+    	"endLine": 419,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSQ7A8JITtEA8eJ7",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1374,
+  	"hash": "9212f5b21ef7b870c31676912aea3c0e",
+  	"textRange": {
+    	"startLine": 1374,
+    	"endLine": 1374,
+    	"startOffset": 61,
+    	"endOffset": 72
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSgYA8JITtEA8f7M",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/tomcat/util/DomUtil.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 264,
+  	"hash": "411e219d79b934f6e6ed559f5af77946",
+  	"textRange": {
+    	"startLine": 264,
+    	"endLine": 264,
+    	"startOffset": 49,
+    	"endOffset": 60
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSF_A8JITtEA8c_2",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 48,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 48,
+    	"endLine": 48,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSF_A8JITtEA8c_3",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 54,
+  	"hash": "53497318a0992da5fa0dd9db07f821c8",
+  	"textRange": {
+    	"startLine": 54,
+    	"endLine": 54,
+    	"startOffset": 8,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Set Character Encoding\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piSF_A8JITtEA8c_4",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 63,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 63,
+    	"endLine": 63,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQAbA8JITtEA8UMv",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 241,
+  	"hash": "2180e466f134d9f846bf33b9cad5a1df",
+  	"textRange": {
+    	"startLine": 241,
+    	"endLine": 241,
+    	"startOffset": 12,
+    	"endOffset": 17
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piQAbA8JITtEA8UMw",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 244,
+  	"hash": "77d218dc6b236a3bc700dc861268e0f6",
+  	"textRange": {
+    	"startLine": 244,
+    	"endLine": 244,
+    	"startOffset": 12,
+    	"endOffset": 17
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piP5LA8JITtEA8T1m",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1447,
+  	"hash": "9212f5b21ef7b870c31676912aea3c0e",
+  	"textRange": {
+    	"startLine": 1447,
+    	"endLine": 1447,
+    	"startOffset": 61,
+    	"endOffset": 72
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPveA8JITtEA8TBU",
+  	"rule": "java:S3329",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 559,
+  	"hash": "cc75d01e15bcb903fe01ae01a9a0b42f",
+  	"textRange": {
+    	"startLine": 559,
+    	"endLine": 559,
+    	"startOffset": 19,
+    	"endOffset": 63
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a dynamically-generated, random IV.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a6",
+    	"owasp-m5"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPkBA8JITtEA8SO0",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/tomcat/dbcp/jocl/JOCLContentHandler.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 334,
+  	"hash": "b536f9ba84d684f80859576155929cd5",
+  	"textRange": {
+    	"startLine": 334,
+    	"endLine": 334,
+    	"startOffset": 38,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPhvA8JITtEA8R77",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/tomcat/util/DomUtil.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 268,
+  	"hash": "411e219d79b934f6e6ed559f5af77946",
+  	"textRange": {
+    	"startLine": 268,
+    	"endLine": 268,
+    	"startOffset": 49,
+    	"endOffset": 60
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPlYA8JITtEA8SS-",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 966,
+  	"hash": "ce71e80858af031381c8927f72bce9c8",
+  	"textRange": {
+    	"startLine": 966,
+    	"endLine": 966,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPQqA8JITtEA8Q2J",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TestSsl.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 169,
+  	"hash": "f5738f7ec8a0b5ebe4caa9a559d5495b",
+  	"textRange": {
+    	"startLine": 169,
+    	"endLine": 169,
+    	"startOffset": 51,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPQoA8JITtEA8Q17",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 87,
+  	"hash": "7a2dcb7fe0f422238e23cae7a86c60ff",
+  	"textRange": {
+    	"startLine": 87,
+    	"endLine": 87,
+    	"startOffset": 45,
+    	"endOffset": 50
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPQoA8JITtEA8Q2B",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 351,
+  	"hash": "ffc92a58cda81170d977fac48e8a0a5f",
+  	"textRange": {
+    	"startLine": 351,
+    	"endLine": 351,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPQoA8JITtEA8Q2C",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 357,
+  	"hash": "171adfba2976eaab22ca5d34811e5ffd",
+  	"textRange": {
+    	"startLine": 357,
+    	"endLine": 357,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPXgA8JITtEA8RLH",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 32,
+  	"hash": "f138526aec733068237a47ee9e670671",
+  	"textRange": {
+    	"startLine": 32,
+    	"endLine": 32,
+    	"startOffset": 8,
+    	"endOffset": 48
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Timing filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPXgA8JITtEA8RLI",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 41,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 41,
+    	"endLine": 41,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPXgA8JITtEA8RLJ",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 47,
+  	"hash": "53497318a0992da5fa0dd9db07f821c8",
+  	"textRange": {
+    	"startLine": 47,
+    	"endLine": 47,
+    	"startOffset": 8,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Set Character Encoding\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPXgA8JITtEA8RLK",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 60,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 60,
+    	"endLine": 60,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOypA8JITtEA8O_C",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 172,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 172,
+    	"endLine": 172,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOypA8JITtEA8O_D",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 237,
+  	"hash": "2180e466f134d9f846bf33b9cad5a1df",
+  	"textRange": {
+    	"startLine": 237,
+    	"endLine": 237,
+    	"startOffset": 12,
+    	"endOffset": 17
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOypA8JITtEA8O_E",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 240,
+  	"hash": "77d218dc6b236a3bc700dc861268e0f6",
+  	"textRange": {
+    	"startLine": 240,
+    	"endLine": 240,
+    	"startOffset": 12,
+    	"endOffset": 17
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOypA8JITtEA8O_F",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 307,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 307,
+    	"endLine": 307,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOypA8JITtEA8O_G",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 357,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 357,
+    	"endLine": 357,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOypA8JITtEA8O_H",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 400,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 400,
+    	"endLine": 400,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOuLA8JITtEA8O3E",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1800,
+  	"hash": "9212f5b21ef7b870c31676912aea3c0e",
+  	"textRange": {
+    	"startLine": 1800,
+    	"endLine": 1800,
+    	"startOffset": 61,
+    	"endOffset": 72
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOn6A8JITtEA8OiN",
+  	"rule": "java:S3329",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 559,
+  	"hash": "cc75d01e15bcb903fe01ae01a9a0b42f",
+  	"textRange": {
+    	"startLine": 559,
+    	"endLine": 559,
+    	"startOffset": 19,
+    	"endOffset": 63
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a dynamically-generated, random IV.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a6",
+    	"owasp-m5"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOWjA8JITtEA8Nr0",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 921,
+  	"hash": "ce71e80858af031381c8927f72bce9c8",
+  	"textRange": {
+    	"startLine": 921,
+    	"endLine": 921,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piPDXA8JITtEA8P6t",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 102,
+  	"hash": "123dad5ef523758bfd52d834946234e4",
+  	"textRange": {
+    	"startLine": 102,
+    	"endLine": 102,
+    	"startOffset": 33,
+    	"endOffset": 51
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piO59A8JITtEA8PKj",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 507,
+  	"hash": "ffc92a58cda81170d977fac48e8a0a5f",
+  	"textRange": {
+    	"startLine": 507,
+    	"endLine": 507,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piO59A8JITtEA8PKk",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 513,
+  	"hash": "171adfba2976eaab22ca5d34811e5ffd",
+  	"textRange": {
+    	"startLine": 513,
+    	"endLine": 513,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piO4CA8JITtEA8PF6",
+  	"rule": "xml:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/webapp/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 163,
+  	"hash": "1f64593c36bded1cabcc1011182cbc13",
+  	"textRange": {
+    	"startLine": 163,
+    	"endLine": 163,
+    	"startOffset": 4,
+    	"endOffset": 36
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOCDA8JITtEA8MwP",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 32,
+  	"hash": "7b287eace5dd0a2cacaf94355eb7f5d2",
+  	"textRange": {
+    	"startLine": 32,
+    	"endLine": 32,
+    	"startOffset": 8,
+    	"endOffset": 48
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Timing Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOCDA8JITtEA8MwQ",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 41,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 41,
+    	"endLine": 41,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOCDA8JITtEA8MwR",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 61,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 61,
+    	"endLine": 61,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOHBA8JITtEA8NAW",
+  	"rule": "xml:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/host-manager/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 127,
+  	"hash": "1f64593c36bded1cabcc1011182cbc13",
+  	"textRange": {
+    	"startLine": 127,
+    	"endLine": 127,
+    	"startOffset": 4,
+    	"endOffset": 36
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piOG3A8JITtEA8M__",
+  	"rule": "xml:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/manager/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 181,
+  	"hash": "1f64593c36bded1cabcc1011182cbc13",
+  	"textRange": {
+    	"startLine": 181,
+    	"endLine": 181,
+    	"startOffset": 4,
+    	"endOffset": 36
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMbHA8JITtEA8G_r",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 172,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 172,
+    	"endLine": 172,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMbHA8JITtEA8G_s",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 237,
+  	"hash": "2180e466f134d9f846bf33b9cad5a1df",
+  	"textRange": {
+    	"startLine": 237,
+    	"endLine": 237,
+    	"startOffset": 12,
+    	"endOffset": 17
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMbHA8JITtEA8G_t",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 240,
+  	"hash": "77d218dc6b236a3bc700dc861268e0f6",
+  	"textRange": {
+    	"startLine": 240,
+    	"endLine": 240,
+    	"startOffset": 12,
+    	"endOffset": 17
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exceptions that could be thrown by \"doGet\": ServletException, IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMbHA8JITtEA8G_u",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 307,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 307,
+    	"endLine": 307,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMbHA8JITtEA8G_v",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 357,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 357,
+    	"endLine": 357,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMbHA8JITtEA8G_w",
+  	"rule": "java:S1989",
+  	"severity": "MINOR",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 400,
+  	"hash": "fd35ea6725cdf884205738396e631178",
+  	"textRange": {
+    	"startLine": 400,
+    	"endLine": 400,
+    	"startOffset": 8,
+    	"endOffset": 28
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Handle the following exception that could be thrown by \"sendMethodNotAllowed\": IOException.",
+  	"effort": "20min",
+  	"debt": "20min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"error-handling",
+    	"owasp-a3"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMQLA8JITtEA8Gkk",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 1752,
+  	"hash": "9212f5b21ef7b870c31676912aea3c0e",
+  	"textRange": {
+    	"startLine": 1752,
+    	"endLine": 1752,
+    	"startOffset": 61,
+    	"endOffset": 72
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piL4lA8JITtEA8GEV",
+  	"rule": "java:S3329",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 559,
+  	"hash": "cc75d01e15bcb903fe01ae01a9a0b42f",
+  	"textRange": {
+    	"startLine": 559,
+    	"endLine": 559,
+    	"startOffset": 19,
+    	"endOffset": 63
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a dynamically-generated, random IV.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a6",
+    	"owasp-m5"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piL82A8JITtEA8GHp",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 52,
+  	"hash": "71ddd6f938039ca7d62656ad68fa3160",
+  	"textRange": {
+    	"startLine": 52,
+    	"endLine": 52,
+    	"startOffset": 28,
+    	"endOffset": 46
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piL82A8JITtEA8GHq",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 54,
+  	"hash": "6725542906f839e8d8ab3df491a56956",
+  	"textRange": {
+    	"startLine": 54,
+    	"endLine": 54,
+    	"startOffset": 28,
+    	"endOffset": 46
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piL9DA8JITtEA8GHx",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 49,
+  	"hash": "8b6779c518d6c35fa2109102482ac22c",
+  	"textRange": {
+    	"startLine": 49,
+    	"endLine": 49,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piL9AA8JITtEA8GHu",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 27,
+  	"hash": "8b6779c518d6c35fa2109102482ac22c",
+  	"textRange": {
+    	"startLine": 27,
+    	"endLine": 27,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piL7vA8JITtEA8GHi",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 36,
+  	"hash": "8b6779c518d6c35fa2109102482ac22c",
+  	"textRange": {
+    	"startLine": 36,
+    	"endLine": 36,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piLkaA8JITtEA8FoW",
+  	"rule": "java:S4423",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 921,
+  	"hash": "ce71e80858af031381c8927f72bce9c8",
+  	"textRange": {
+    	"startLine": 921,
+    	"endLine": 921,
+    	"startOffset": 52,
+    	"endOffset": 57
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Change this code to use a stronger protocol.",
+  	"effort": "2min",
+  	"debt": "2min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"owasp-m3",
+    	"privacy",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMsRA8JITtEA8HcQ",
+  	"rule": "java:S2755",
+  	"severity": "BLOCKER",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 102,
+  	"hash": "123dad5ef523758bfd52d834946234e4",
+  	"textRange": {
+    	"startLine": 102,
+    	"endLine": 102,
+    	"startOffset": 33,
+    	"endOffset": 51
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Disable access to external entities in XML parsing.",
+  	"effort": "15min",
+  	"debt": "15min",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a4"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMn_A8JITtEA8HRJ",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 499,
+  	"hash": "ffc92a58cda81170d977fac48e8a0a5f",
+  	"textRange": {
+    	"startLine": 499,
+    	"endLine": 499,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piMn_A8JITtEA8HRK",
+  	"rule": "java:S4830",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 505,
+  	"hash": "171adfba2976eaab22ca5d34811e5ffd",
+  	"textRange": {
+    	"startLine": 505,
+    	"endLine": 505,
+    	"startOffset": 20,
+    	"endOffset": 38
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Enable server certificate validation on this SSL/TLS connection.",
+  	"effort": "5min",
+  	"debt": "5min",
+  	"author": "",
+  	"tags": [
+    	"cert",
+    	"cwe",
+    	"owasp-a3",
+    	"owasp-a6",
+    	"privacy",
+    	"ssl"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piM54A8JITtEA8IIT",
+  	"rule": "xml:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/webapp/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 163,
+  	"hash": "1f64593c36bded1cabcc1011182cbc13",
+  	"textRange": {
+    	"startLine": 163,
+    	"endLine": 163,
+    	"startOffset": 4,
+    	"endOffset": 36
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNDpA8JITtEA8IbG",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 34,
+  	"hash": "7b287eace5dd0a2cacaf94355eb7f5d2",
+  	"textRange": {
+    	"startLine": 34,
+    	"endLine": 34,
+    	"startOffset": 8,
+    	"endOffset": 48
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Timing Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNDpA8JITtEA8IbH",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 43,
+  	"hash": "9ac25fb721495d31c25bb4f2d6e68088",
+  	"textRange": {
+    	"startLine": 43,
+    	"endLine": 43,
+    	"startOffset": 8,
+    	"endOffset": 56
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Request Dumper Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNDpA8JITtEA8IbI",
+  	"rule": "java:S3355",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/examples/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 48,
+  	"hash": "025f0c21e57a1186d2430a9eeba57f3a",
+  	"textRange": {
+    	"startLine": 48,
+    	"endLine": 48,
+    	"startOffset": 8,
+    	"endOffset": 53
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "\"Compression Filter\" should have a mapping.",
+  	"effort": "30min",
+  	"debt": "30min",
+  	"author": "",
+  	"tags": [
+    	"owasp-a6"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNGKA8JITtEA8Igh",
+  	"rule": "xml:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/host-manager/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 115,
+  	"hash": "1f64593c36bded1cabcc1011182cbc13",
+  	"textRange": {
+    	"startLine": 115,
+    	"endLine": 115,
+    	"startOffset": 4,
+    	"endOffset": 36
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	},
+	{
+  	"key": "AX0piNEMA8JITtEA8Iee",
+  	"rule": "xml:S2647",
+  	"severity": "CRITICAL",
+  	"component": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/manager/WEB-INF/web.xml",
+  	"project": "apache-tomcat-vulnerabilities",
+  	"line": 169,
+  	"hash": "1f64593c36bded1cabcc1011182cbc13",
+  	"textRange": {
+    	"startLine": 169,
+    	"endLine": 169,
+    	"startOffset": 4,
+    	"endOffset": 36
+  	},
+  	"flows": [],
+  	"status": "OPEN",
+  	"message": "Use a more secure method than basic authentication.",
+  	"effort": "2h",
+  	"debt": "2h",
+  	"author": "",
+  	"tags": [
+    	"cwe",
+    	"owasp-a3",
+    	"sans-top25-porous"
+  	],
+  	"creationDate": "2021-11-16T16:40:04+0100",
+  	"updateDate": "2021-11-16T16:40:04+0100",
+  	"type": "VULNERABILITY",
+  	"scope": "MAIN"
+	}
+  ],
+  "components": [
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "WsWebSocketContainer.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/host-manager/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-8.5.65-src/webapps/host-manager/WEB-INF/web.xml",
+  	"path": "apache-tomcat-8.5.65-src/webapps/host-manager/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "InsecureStreamProvider.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "CertificateStreamProvider.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/webapp/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-9.0.45-src/test/webapp/WEB-INF/web.xml",
+  	"path": "apache-tomcat-9.0.45-src/test/webapp/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/servletapi/src/share/javax/servlet/http/HttpServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "HttpServlet.java",
+  	"longName": "apache-tomcat-4.1.40-src/servletapi/src/share/javax/servlet/http/HttpServlet.java",
+  	"path": "apache-tomcat-4.1.40-src/servletapi/src/share/javax/servlet/http/HttpServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "EncryptInterceptor.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "AbstractStreamProvider.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TokenStreamProvider.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DefaultServlet.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/catalina/servlets/DefaultServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TesterSupport.java",
+  	"longName": "apache-tomcat-10.0.4-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"path": "apache-tomcat-10.0.4-src/test/org/apache/tomcat/util/net/TesterSupport.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DefaultServlet.java",
+  	"longName": "apache-tomcat-6.0.53-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"path": "apache-tomcat-6.0.53-src/java/org/apache/catalina/servlets/DefaultServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/tomcat/util/DomUtil.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DomUtil.java",
+  	"longName": "apache-tomcat-6.0.53-src/java/org/apache/tomcat/util/DomUtil.java",
+  	"path": "apache-tomcat-6.0.53-src/java/org/apache/tomcat/util/DomUtil.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "WsWebSocketContainer.java",
+  	"longName": "apache-tomcat-8.5.65-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"path": "apache-tomcat-8.5.65-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "JspDocumentParser.java",
+  	"longName": "apache-tomcat-4.1.40-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java",
+  	"path": "apache-tomcat-4.1.40-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "HttpServlet.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java",
+  	"path": "apache-tomcat-9.0.45-src/java/javax/servlet/http/HttpServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TestJspDocumentParser.java",
+  	"longName": "apache-tomcat-10.0.4-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"path": "apache-tomcat-10.0.4-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-7.0.108-src/webapps/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/webapps/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-10.0.4-src/webapps/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-10.0.4-src/webapps/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-8.5.65-src/webapps/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-8.5.65-src/webapps/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/servlets/DefaultServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DefaultServlet.java",
+  	"longName": "apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/servlets/DefaultServlet.java",
+  	"path": "apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/servlets/DefaultServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "CertificateStreamProvider.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/CertificateStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "InsecureStreamProvider.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/InsecureStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TesterSupport.java",
+  	"longName": "apache-tomcat-9.0.45-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"path": "apache-tomcat-9.0.45-src/test/org/apache/tomcat/util/net/TesterSupport.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/tomcat/dbcp/jocl/JOCLContentHandler.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "JOCLContentHandler.java",
+  	"longName": "apache-tomcat-7.0.108-src/java/org/apache/tomcat/dbcp/jocl/JOCLContentHandler.java",
+  	"path": "apache-tomcat-7.0.108-src/java/org/apache/tomcat/dbcp/jocl/JOCLContentHandler.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "EncryptInterceptor.java",
+  	"longName": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"path": "apache-tomcat-9.0.45-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/webapps/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-6.0.53-src/webapps/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-6.0.53-src/webapps/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr154/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-5.5.36-src/servletapi/jsr154/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-5.5.36-src/servletapi/jsr154/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr154/src/share/javax/servlet/http/HttpServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "HttpServlet.java",
+  	"longName": "apache-tomcat-5.5.36-src/servletapi/jsr154/src/share/javax/servlet/http/HttpServlet.java",
+  	"path": "apache-tomcat-5.5.36-src/servletapi/jsr154/src/share/javax/servlet/http/HttpServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "EncryptInterceptor.java",
+  	"longName": "apache-tomcat-8.5.65-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"path": "apache-tomcat-8.5.65-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/host-manager/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-9.0.45-src/webapps/host-manager/WEB-INF/web.xml",
+  	"path": "apache-tomcat-9.0.45-src/webapps/host-manager/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "JspDocumentParser.java",
+  	"longName": "apache-tomcat-5.5.36-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java",
+  	"path": "apache-tomcat-5.5.36-src/jasper/src/share/org/apache/jasper/compiler/JspDocumentParser.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "EncryptInterceptor.java",
+  	"longName": "apache-tomcat-7.0.108-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java",
+  	"path": "apache-tomcat-7.0.108-src/java/org/apache/catalina/tribes/group/interceptors/EncryptInterceptor.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/webapp/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-8.5.65-src/test/webapp/WEB-INF/web.xml",
+  	"path": "apache-tomcat-8.5.65-src/test/webapp/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/tomcat/util/DomUtil.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DomUtil.java",
+  	"longName": "apache-tomcat-7.0.108-src/java/org/apache/tomcat/util/DomUtil.java",
+  	"path": "apache-tomcat-7.0.108-src/java/org/apache/tomcat/util/DomUtil.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "WsWebSocketContainer.java",
+  	"longName": "apache-tomcat-7.0.108-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"path": "apache-tomcat-7.0.108-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/webapps/manager/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-8.5.65-src/webapps/manager/WEB-INF/web.xml",
+  	"path": "apache-tomcat-8.5.65-src/webapps/manager/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/JkStatusAccessor.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "JkStatusAccessor.java",
+  	"longName": "apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/JkStatusAccessor.java",
+  	"path": "apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/JkStatusAccessor.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/AbstractJkStatusTask.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "AbstractJkStatusTask.java",
+  	"longName": "apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/AbstractJkStatusTask.java",
+  	"path": "apache-tomcat-4.1.40-src/connectors/jk/jkstatus/src/share/org/apache/jk/status/AbstractJkStatusTask.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DefaultServlet.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/catalina/servlets/DefaultServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DefaultServlet.java",
+  	"longName": "apache-tomcat-8.5.65-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"path": "apache-tomcat-8.5.65-src/java/org/apache/catalina/servlets/DefaultServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/catalina/mbeans/JmxRemoteLifecycleListener.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "JmxRemoteLifecycleListener.java",
+  	"longName": "apache-tomcat-6.0.53-src/java/org/apache/catalina/mbeans/JmxRemoteLifecycleListener.java",
+  	"path": "apache-tomcat-6.0.53-src/java/org/apache/catalina/mbeans/JmxRemoteLifecycleListener.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-9.0.45-src/webapps/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-9.0.45-src/webapps/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "AbstractCatalinaTask.java",
+  	"longName": "apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"path": "apache-tomcat-5.5.36-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities",
+  	"enabled": true,
+  	"qualifier": "TRK",
+  	"name": "apache-tomcat-vulnerabilities",
+  	"longName": "apache-tomcat-vulnerabilities"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "AbstractCatalinaTask.java",
+  	"longName": "apache-tomcat-4.1.40-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"path": "apache-tomcat-4.1.40-src/container/catalina/src/share/org/apache/catalina/ant/AbstractCatalinaTask.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/webapps/manager/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-9.0.45-src/webapps/manager/WEB-INF/web.xml",
+  	"path": "apache-tomcat-9.0.45-src/webapps/manager/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-4.1.40-src/container/webapps/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-4.1.40-src/container/webapps/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-4.1.40-src/container/webapps/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/javax/servlet/http/HttpServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "HttpServlet.java",
+  	"longName": "apache-tomcat-6.0.53-src/java/javax/servlet/http/HttpServlet.java",
+  	"path": "apache-tomcat-6.0.53-src/java/javax/servlet/http/HttpServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TesterSupport.java",
+  	"longName": "apache-tomcat-8.5.65-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"path": "apache-tomcat-8.5.65-src/test/org/apache/tomcat/util/net/TesterSupport.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TesterSupport.java",
+  	"longName": "apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TesterSupport.java",
+  	"path": "apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TesterSupport.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TestSsl.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TestSsl.java",
+  	"longName": "apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TestSsl.java",
+  	"path": "apache-tomcat-7.0.108-src/test/org/apache/tomcat/util/net/TestSsl.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "AbstractStreamProvider.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/AbstractStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TokenStreamProvider.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "HttpServlet.java",
+  	"longName": "apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java",
+  	"path": "apache-tomcat-8.5.65-src/java/javax/servlet/http/HttpServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "web.xml",
+  	"longName": "apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml",
+  	"path": "apache-tomcat-5.5.36-src/servletapi/jsr152/examples/WEB-INF/web.xml"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "DefaultServlet.java",
+  	"longName": "apache-tomcat-7.0.108-src/java/org/apache/catalina/servlets/DefaultServlet.java",
+  	"path": "apache-tomcat-7.0.108-src/java/org/apache/catalina/servlets/DefaultServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-7.0.108-src/java/javax/servlet/http/HttpServlet.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "HttpServlet.java",
+  	"longName": "apache-tomcat-7.0.108-src/java/javax/servlet/http/HttpServlet.java",
+  	"path": "apache-tomcat-7.0.108-src/java/javax/servlet/http/HttpServlet.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-6.0.53-src/java/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "AbstractCatalinaTask.java",
+  	"longName": "apache-tomcat-6.0.53-src/java/org/apache/catalina/ant/AbstractCatalinaTask.java",
+  	"path": "apache-tomcat-6.0.53-src/java/org/apache/catalina/ant/AbstractCatalinaTask.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-10.0.4-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "WsWebSocketContainer.java",
+  	"longName": "apache-tomcat-10.0.4-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+  	"path": "apache-tomcat-10.0.4-src/java/org/apache/tomcat/websocket/WsWebSocketContainer.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-5.5.36-src/connectors/util/java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "JSSESocketFactory.java",
+  	"longName": "apache-tomcat-5.5.36-src/connectors/util/java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java",
+  	"path": "apache-tomcat-5.5.36-src/connectors/util/java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-9.0.45-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TestJspDocumentParser.java",
+  	"longName": "apache-tomcat-9.0.45-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"path": "apache-tomcat-9.0.45-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java"
+	},
+	{
+  	"key": "apache-tomcat-vulnerabilities:apache-tomcat-8.5.65-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"enabled": true,
+  	"qualifier": "FIL",
+  	"name": "TestJspDocumentParser.java",
+  	"longName": "apache-tomcat-8.5.65-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java",
+  	"path": "apache-tomcat-8.5.65-src/test/org/apache/jasper/compiler/TestJspDocumentParser.java"
+	}
+  ],
+  "facets": []
+}
